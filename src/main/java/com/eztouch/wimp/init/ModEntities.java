@@ -17,8 +17,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModEntities
 {
 
-	//public static final EntityWIMP pathFinderTrail = new EntityPathFinderTrail();
-
 	public static void init()
 	{
 		registerEntity(EntityPathFinderTrail.class, "pathFinderTrail");

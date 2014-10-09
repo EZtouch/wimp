@@ -3,6 +3,7 @@ package com.eztouch.wimp.proxy;
 import net.minecraft.client.model.ModelBiped;
 
 import com.eztouch.wimp.client.settings.Keybindings;
+import com.eztouch.wimp.entity.EntityPaperPlane;
 import com.eztouch.wimp.entity.EntityPathFinderTrail;
 import com.eztouch.wimp.render.EntityRender;
 
@@ -23,6 +24,9 @@ public class ClientProxy extends CommonProxy
 	{
 		RenderingRegistry.registerEntityRenderingHandler(
 				EntityPathFinderTrail.class, new EntityRender(new ModelBiped(),
+						0.5F));
+		RenderingRegistry.registerEntityRenderingHandler(
+				EntityPaperPlane.class, new EntityRender(new ModelBiped(),
 						0.5F));
 	}
 }
