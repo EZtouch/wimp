@@ -22,11 +22,13 @@ public class ClientProxy extends CommonProxy
 	@Override
 	public void registerRenderers()
 	{
-		RenderingRegistry.registerEntityRenderingHandler(
-				EntityPathFinderTrail.class, new EntityRender(new ModelBiped(),
-						0.5F));
-		RenderingRegistry.registerEntityRenderingHandler(
-				EntityPaperPlane.class, new EntityRender(new ModelBiped(),
-						0.5F));
+		registerBiped(EntityPathFinderTrail.class);
+		registerBiped(EntityPaperPlane.class);
+	}
+
+	public void registerBiped(Class entityClass)
+	{
+		RenderingRegistry.registerEntityRenderingHandler(entityClass,
+				new EntityRender(new ModelBiped(), 0.5F));
 	}
 }

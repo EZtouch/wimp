@@ -7,20 +7,18 @@ import net.minecraft.entity.EntityList;
 import com.eztouch.wimp.Wimp;
 import com.eztouch.wimp.entity.EntityPaperPlane;
 import com.eztouch.wimp.entity.EntityPathFinderTrail;
-import com.eztouch.wimp.entity.EntityWIMP;
-import com.eztouch.wimp.reference.Reference;
-import com.eztouch.wimp.render.EntityRender;
+import com.eztouch.wimp.reference.Names;
 
 import cpw.mods.fml.common.registry.EntityRegistry;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModEntities
 {
 
 	public static void init()
 	{
-		registerEntity(EntityPathFinderTrail.class, "pathFinderTrail");
-		registerEntity(EntityPaperPlane.class, "paperPlane");
+		registerEntity(EntityPathFinderTrail.class,
+				Names.Entities.pathFinderTrail);
+		registerEntity(EntityPaperPlane.class, Names.Entities.paperPlane);
 	}
 
 	public static void registerEntity(Class entityClass, String name)

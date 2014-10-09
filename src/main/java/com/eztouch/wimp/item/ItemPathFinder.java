@@ -7,6 +7,7 @@ import net.minecraft.util.ChunkCoordinates;
 import net.minecraft.world.World;
 
 import com.eztouch.wimp.entity.EntityPathFinderTrail;
+import com.eztouch.wimp.reference.Names;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,7 +19,7 @@ public class ItemPathFinder extends ItemWIMP
 	public ItemPathFinder()
 	{
 		super();
-		this.setUnlocalizedName("pathFinder");
+		this.setUnlocalizedName(Names.Items.pathFinder);
 	}
 
 	@SideOnly(Side.CLIENT)

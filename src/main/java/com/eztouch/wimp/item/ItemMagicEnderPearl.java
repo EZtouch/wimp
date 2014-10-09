@@ -1,10 +1,12 @@
 package com.eztouch.wimp.item;
 
+import com.eztouch.wimp.reference.Names;
+
 public class ItemMagicEnderPearl extends ItemWIMP
 {
 	public ItemMagicEnderPearl()
 	{
 		super();
-		this.setUnlocalizedName("magicEnderPearl");
+		this.setUnlocalizedName(Names.Items.magicEnderPearl);
 	}
 }
