@@ -1,0 +1,31 @@
+## gradle
+/.gradle
+/build
+/gradle
+/gradlew
+/gradlew.bat
+
+## ForgeGradle
+/run
+
+## eclipse
+/eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
+
+## intellij
+/out
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/atlassian-ide-plugin.xml
+
+## docs
+/README.txt
+/MinecraftForge-License.txt
+/MinecraftForge-Credits.txt
+/LICENSE-fml.txt

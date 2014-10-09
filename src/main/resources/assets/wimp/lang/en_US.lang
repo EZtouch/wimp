@@ -1,0 +1,21 @@
+# Keys
+keys.wimp.category=Where's My Place
+keys.wimp.charge=Charge
+keys.wimp.release=Release
+
+# Creative tabs
+itemGroup.wimp=WIMP
+
+# Items
+item.wimp:locatorCore.name=Locator Core
+item.wimp:magicMirror.name=Magic Mirror
+item.wimp:magicPaperPlane.name=Magic Paper Plane
+item.wimp:magicEnderPearl.name=Magic Ender Pearl
+item.wimp:pathFinder.name=Path Finder
+
+# Blocks
+tile.wimp:locationTable.name=Location Table
+
+# Entities
+entity.pathFinderTrail.name=Path Finder
+entity.paperPlane.name=Paper Plane

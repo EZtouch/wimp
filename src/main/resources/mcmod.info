@@ -1,0 +1,16 @@
+[
+{
+  "modid": "WIMP",
+  "name": "WIMP",
+  "description": "Where Is My Place",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EZtouch"],
+  "credits": "EZtouch",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
