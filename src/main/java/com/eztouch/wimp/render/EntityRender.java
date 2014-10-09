@@ -9,8 +9,7 @@ import com.eztouch.wimp.reference.Reference;
 
 public class EntityRender extends RenderBiped
 {
-	private static final ResourceLocation textureLocation = new ResourceLocation(
-			Reference.MOD_ID.toLowerCase() + ":" + "models/char.png");
+	private static final ResourceLocation textureLocation = new ResourceLocation(Reference.MOD_ID.toLowerCase() + ":" + "models/char.png");
 
 	public EntityRender(ModelBiped model, float shadowSize)
 	{

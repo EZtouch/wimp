@@ -27,16 +27,14 @@ public class BlockWIMP extends Block
 	@Override
 	public String getUnlocalizedName()
 	{
-		return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":",
-				getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister)
 	{
-		blockIcon = iconRegister.registerIcon(String.format("%s",
-				getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
+		blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
 	}
 
 	protected String getUnwrappedUnlocalizedName(String unlocalizedName)

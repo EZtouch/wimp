@@ -7,8 +7,7 @@ public class NBTHelper
 {
 	public static boolean hasTag(ItemStack itemStack, String keyName)
 	{
-		return itemStack != null && itemStack.stackTagCompound != null
-				&& itemStack.stackTagCompound.hasKey(keyName);
+		return itemStack != null && itemStack.stackTagCompound != null && itemStack.stackTagCompound.hasKey(keyName);
 	}
 
 	public static void removeTag(ItemStack itemStack, String keyName)
@@ -34,8 +33,7 @@ public class NBTHelper
 		}
 	}
 
-	public static void setLong(ItemStack itemStack, String keyName,
-			long keyValue)
+	public static void setLong(ItemStack itemStack, String keyName, long keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -55,8 +53,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getString(keyName);
 	}
 
-	public static void setString(ItemStack itemStack, String keyName,
-			String keyValue)
+	public static void setString(ItemStack itemStack, String keyName, String keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -76,8 +73,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getBoolean(keyName);
 	}
 
-	public static void setBoolean(ItemStack itemStack, String keyName,
-			boolean keyValue)
+	public static void setBoolean(ItemStack itemStack, String keyName, boolean keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -97,8 +93,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getByte(keyName);
 	}
 
-	public static void setByte(ItemStack itemStack, String keyName,
-			byte keyValue)
+	public static void setByte(ItemStack itemStack, String keyName, byte keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -118,8 +113,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getShort(keyName);
 	}
 
-	public static void setShort(ItemStack itemStack, String keyName,
-			short keyValue)
+	public static void setShort(ItemStack itemStack, String keyName, short keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -139,8 +133,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getInteger(keyName);
 	}
 
-	public static void setInteger(ItemStack itemStack, String keyName,
-			int keyValue)
+	public static void setInteger(ItemStack itemStack, String keyName, int keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -173,8 +166,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getFloat(keyName);
 	}
 
-	public static void setFloat(ItemStack itemStack, String keyName,
-			float keyValue)
+	public static void setFloat(ItemStack itemStack, String keyName, float keyValue)
 	{
 		initNBTTagCompound(itemStack);
 
@@ -194,8 +186,7 @@ public class NBTHelper
 		return itemStack.stackTagCompound.getDouble(keyName);
 	}
 
-	public static void setDouble(ItemStack itemStack, String keyName,
-			double keyValue)
+	public static void setDouble(ItemStack itemStack, String keyName, double keyValue)
 	{
 		initNBTTagCompound(itemStack);
 

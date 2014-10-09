@@ -25,8 +25,7 @@ public class ConfigurationHandler
 	}
 
 	@SubscribeEvent
-	public void onConfigurationChangedEvent(
-			ConfigChangedEvent.OnConfigChangedEvent event)
+	public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
 	{
 		if (event.modID.equalsIgnoreCase(Reference.MOD_ID))
 		{
@@ -36,9 +35,7 @@ public class ConfigurationHandler
 
 	private static void loadConfiguration()
 	{
-		testValue = configuration.getBoolean("configValue",
-				configuration.CATEGORY_GENERAL, false,
-				"This is an example configuration value");
+		testValue = configuration.getBoolean("configValue", configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
 
 		if (configuration.hasChanged())
 		{

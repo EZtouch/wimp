@@ -8,8 +8,7 @@ import com.eztouch.wimp.reference.Reference;
 
 public class CreativeTabWIMP
 {
-	public static final CreativeTabs LMRB_TAB = new CreativeTabs(
-			Reference.MOD_ID.toLowerCase())
+	public static final CreativeTabs LMRB_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
 	{
 		@Override
 		public Item getTabIconItem()

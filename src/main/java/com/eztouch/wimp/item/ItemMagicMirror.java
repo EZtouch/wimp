@@ -22,8 +22,7 @@ public class ItemMagicMirror extends ItemWIMP
 
 	@Override
 	@SideOnly(Side.CLIENT)
-	public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World,
-			EntityPlayer par3EntityPlayer)
+	public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
 	{
 
 		if (!par2World.isRemote)
@@ -33,17 +32,14 @@ public class ItemMagicMirror extends ItemWIMP
 			{
 				coordinates = par2World.getSpawnPoint();
 			}
-			par2World.playSoundAtEntity(par3EntityPlayer, "random.bow", 0.5F,
-					0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
+			par2World.playSoundAtEntity(par3EntityPlayer, "random.bow", 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
 		}
 		if (par2World.isRemote)
 		{
 			if (coordinates != null)
 			{
 
-				par3EntityPlayer.setPosition((double) coordinates.posX + 0.5D,
-						(double) coordinates.posY + 3,
-						(double) coordinates.posZ + 0.5D);
+				par3EntityPlayer.setPosition((double) coordinates.posX + 0.5D, (double) coordinates.posY + 3, (double) coordinates.posZ + 0.5D);
 			}
 		}
 		return par1ItemStack;

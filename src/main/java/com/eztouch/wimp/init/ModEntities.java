@@ -16,8 +16,7 @@ public class ModEntities
 
 	public static void init()
 	{
-		registerEntity(EntityPathFinderTrail.class,
-				Names.Entities.pathFinderTrail);
+		registerEntity(EntityPathFinderTrail.class, Names.Entities.pathFinderTrail);
 		registerEntity(EntityPaperPlane.class, Names.Entities.paperPlane);
 	}
 
@@ -30,10 +29,7 @@ public class ModEntities
 		int secondaryColor = rand.nextInt() * 16777215;
 
 		EntityRegistry.registerGlobalEntityID(entityClass, name, entityID);
-		EntityRegistry.registerModEntity(entityClass, name, entityID,
-				Wimp.instance, 64, 1, true);
-		EntityList.entityEggs.put(Integer.valueOf(entityID),
-				new EntityList.EntityEggInfo(entityID, primaryColor,
-						secondaryColor));
+		EntityRegistry.registerModEntity(entityClass, name, entityID, Wimp.instance, 64, 1, true);
+		EntityList.entityEggs.put(Integer.valueOf(entityID), new EntityList.EntityEggInfo(entityID, primaryColor, secondaryColor));
 	}
 }

@@ -28,7 +28,6 @@ public class ClientProxy extends CommonProxy
 
 	public void registerBiped(Class entityClass)
 	{
-		RenderingRegistry.registerEntityRenderingHandler(entityClass,
-				new EntityRender(new ModelBiped(), 0.5F));
+		RenderingRegistry.registerEntityRenderingHandler(entityClass, new EntityRender(new ModelBiped(), 0.5F));
 	}
 }
