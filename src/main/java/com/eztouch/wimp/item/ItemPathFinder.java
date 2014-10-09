@@ -19,7 +19,7 @@ public class ItemPathFinder extends ItemWIMP
 	public ItemPathFinder()
 	{
 		super();
-		this.setUnlocalizedName(Names.Items.pathFinder);
+		this.setUnlocalizedName(Names.Items.PATH_FINDER);
 	}
 
 	@SideOnly(Side.CLIENT)

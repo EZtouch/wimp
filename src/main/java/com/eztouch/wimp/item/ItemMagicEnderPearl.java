@@ -7,6 +7,6 @@ public class ItemMagicEnderPearl extends ItemWIMP
 	public ItemMagicEnderPearl()
 	{
 		super();
-		this.setUnlocalizedName(Names.Items.magicEnderPearl);
+		this.setUnlocalizedName(Names.Items.MAGIC_ENDER_PEARL);
 	}
 }

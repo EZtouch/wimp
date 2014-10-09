@@ -1,4 +1,4 @@
-package com.eztouch.wimp.render;
+package com.eztouch.wimp.client.renderer.model.entity;
 
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.entity.RenderBiped;
@@ -15,6 +15,7 @@ public class EntityRender extends RenderBiped
 	{
 		super(model, shadowSize);
 	}
+	
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity par1Entity)

@@ -11,16 +11,16 @@ public final class Names
 
 	public static final class Blocks
 	{
-		public static final String locationTable = "locationTable";
+		public static final String LOCATION_TABLE = "locationTable";
 	}
 
 	public static final class Items
 	{
-		public static final String locatorCore = "locatorCore";
-		public static final String magicEnderPearl = "magicEnderPearl";
-		public static final String magicMirror = "magicMirror";
-		public static final String magicPaperPlane = "magicPaperPlane";
-		public static final String pathFinder = "pathFinder";
+		public static final String LOCATOR_CORE = "locatorCore";
+		public static final String MAGIC_ENDER_PEARL = "magicEnderPearl";
+		public static final String MAGIC_MIRROR = "magicMirror";
+		public static final String MAGIC_PAPER_PLANE = "magicPaperPlane";
+		public static final String PATH_FINDER = "pathFinder";
 	}
 
 	public static final class Entities

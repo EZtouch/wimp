@@ -10,8 +10,8 @@ public class BlockLocationTable extends BlockWIMP
 	public BlockLocationTable()
 	{
 		super(Material.wood);
-		this.setBlockName(Names.Blocks.locationTable);
-		this.setBlockTextureName(Names.Blocks.locationTable);
+		this.setBlockName(Names.Blocks.LOCATION_TABLE);
+		this.setBlockTextureName(Names.Blocks.LOCATION_TABLE);
 		this.setHardness(2.5f);
 		this.setResistance(30.0f);
 	}

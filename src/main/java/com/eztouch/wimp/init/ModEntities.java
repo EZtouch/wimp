@@ -6,6 +6,7 @@ import net.minecraft.entity.EntityList;
 
 import com.eztouch.wimp.Wimp;
 import com.eztouch.wimp.entity.EntityPaperPlane;
+import com.eztouch.wimp.entity.EntityPaperPlaneBackup;
 import com.eztouch.wimp.entity.EntityPathFinderTrail;
 import com.eztouch.wimp.reference.Names;
 
@@ -17,6 +18,7 @@ public class ModEntities
 	public static void init()
 	{
 		registerEntity(EntityPathFinderTrail.class, Names.Entities.pathFinderTrail);
+		//registerEntity(EntityPaperPlaneBackup.class, Names.Entities.paperPlane);
 		registerEntity(EntityPaperPlane.class, Names.Entities.paperPlane);
 	}
 

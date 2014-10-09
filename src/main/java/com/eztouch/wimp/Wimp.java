@@ -36,7 +36,6 @@ public class Wimp
 		proxy.registerKeyBindings();
 		proxy.registerRenderers();
 
-		// this resolves the problem
 		ClientProxy clientP = new ClientProxy();
 		clientP.registerRenderers();
 		clientP.registerKeyBindings();
@@ -52,7 +51,9 @@ public class Wimp
 	public void init(FMLInitializationEvent event)
 	{
 		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		
 		Recipes.init();
+		
 		LogHelper.info("Initialization Complete");
 	}
 

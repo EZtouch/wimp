@@ -16,7 +16,7 @@ public class ItemMagicMirror extends ItemWIMP
 	public ItemMagicMirror()
 	{
 		super();
-		this.setUnlocalizedName(Names.Items.magicMirror);
+		this.setUnlocalizedName(Names.Items.MAGIC_MIRROR);
 		this.maxStackSize = 1;
 	}
 

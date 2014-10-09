@@ -8,7 +8,7 @@ public class ItemLocatorCore extends ItemWIMP
 	public ItemLocatorCore()
 	{
 		super();
-		this.setUnlocalizedName(Names.Items.locatorCore);
+		this.setUnlocalizedName(Names.Items.LOCATOR_CORE);
 		this.maxStackSize = 1;
 	}
 }
