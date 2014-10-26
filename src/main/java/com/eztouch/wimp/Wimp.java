@@ -51,9 +51,9 @@ public class Wimp
 	public void init(FMLInitializationEvent event)
 	{
 		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
-		
+
 		Recipes.init();
-		
+
 		LogHelper.info("Initialization Complete");
 	}
 

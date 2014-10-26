@@ -33,6 +33,10 @@ public class ItemMagicPaperPlane extends ItemWIMP
 			{
 				coordinates = par2World.getSpawnPoint();
 			}
+			// //////EntityPaperPlane entityPaperPlane = new
+			// EntityPaperPlane(par2World, par3EntityPlayer.posX,
+			// par3EntityPlayer.posY + 1.62D - (double)
+			// par3EntityPlayer.yOffset, par3EntityPlayer.posZ);
 			EntityPaperPlane entityPaperPlane = new EntityPaperPlane(par2World, par3EntityPlayer.posX, par3EntityPlayer.posY + 1.62D - (double) par3EntityPlayer.yOffset, par3EntityPlayer.posZ);
 			if (par3EntityPlayer.capabilities.isCreativeMode)
 			{
@@ -42,8 +46,12 @@ public class ItemMagicPaperPlane extends ItemWIMP
 				creative = false;
 				--par1ItemStack.stackSize;
 			}
-			entityPaperPlane.modeHelper(mode());
+			// //////entityPaperPlane.modeHelper(mode());
+			// //////entityPaperPlane.moveTowards((double) coordinates.posX +
+			// 0.5D, (int) coordinates.posY + 3, (double) coordinates.posZ +
+			// 0.5D);
 			entityPaperPlane.moveTowards((double) coordinates.posX + 0.5D, (int) coordinates.posY + 3, (double) coordinates.posZ + 0.5D);
+			// //////par2World.spawnEntityInWorld(entityPaperPlane);
 			par2World.spawnEntityInWorld(entityPaperPlane);
 			par2World.playSoundAtEntity(par3EntityPlayer, "random.bow", 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
 			par2World.playAuxSFXAtEntity((EntityPlayer) null, 1002, (int) par3EntityPlayer.posX, (int) par3EntityPlayer.posY, (int) par3EntityPlayer.posZ, 0);

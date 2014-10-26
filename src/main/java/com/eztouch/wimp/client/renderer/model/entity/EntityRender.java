@@ -15,7 +15,6 @@ public class EntityRender extends RenderBiped
 	{
 		super(model, shadowSize);
 	}
-	
 
 	@Override
 	protected ResourceLocation getEntityTexture(Entity par1Entity)

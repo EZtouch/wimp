@@ -2,7 +2,6 @@ package com.eztouch.wimp.handler;
 
 import com.eztouch.wimp.client.settings.Keybindings;
 import com.eztouch.wimp.reference.Key;
-import com.eztouch.wimp.utility.LogHelper;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;

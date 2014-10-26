@@ -22,7 +22,7 @@ group= "com.eztouch.wimb" // http://maven.apache.org/guides/mini/guide-naming-co
 archivesBaseName = "wimb"
 
 minecraft {
-    version = "1.7.10-10.13.1.1224"
+    version = "1.7.10-10.13.2.1232"
     runDir = "eclipse"
 }
 

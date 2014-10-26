@@ -1,11 +1,12 @@
 package com.eztouch.wimp.item;
 
-import com.eztouch.wimp.reference.Names;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChunkCoordinates;
 import net.minecraft.world.World;
+
+import com.eztouch.wimp.reference.Names;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
